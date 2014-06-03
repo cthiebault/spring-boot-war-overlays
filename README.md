@@ -1,6 +1,6 @@
 # Spring Boot & Maven war overlay
 
-Project to show Spring Boot & Maven war overlay errors:
+Project to show Spring Boot & Maven war overlay errors:   
 [http://stackoverflow.com/questions/24025004/spring-boot-maven-war-overlay](http://stackoverflow.com/questions/24025004/spring-boot-maven-war-overlay)
 
 This project has 2 war modules:
