@@ -1,6 +1,7 @@
 # Spring Boot & Maven war overlay
 
-This project try to use Spring Boot with Maven war overlay feature.
+Project to show Spring Boot & Maven war overlay errors:
+[http://stackoverflow.com/questions/24025004/spring-boot-maven-war-overlay](http://stackoverflow.com/questions/24025004/spring-boot-maven-war-overlay)
 
 This project has 2 war modules:
 
