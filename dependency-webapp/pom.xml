@@ -3,22 +3,14 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>spring-boot-overlays</groupId>
-  <artifactId>parent</artifactId>
-  <version>0.1.0-SNAPSHOT</version>
-  <packaging>pom</packaging>
-
+  <artifactId>dependency-webapp</artifactId>
+  <packaging>war</packaging>
 
   <parent>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-parent</artifactId>
-    <version>1.0.2.RELEASE</version>
+    <groupId>spring-boot-overlays</groupId>
+    <artifactId>parent</artifactId>
+    <version>0.1.0-SNAPSHOT</version>
   </parent>
-
-  <modules>
-    <module>main-webapp</module>
-    <module>dependency-webapp</module>
-  </modules>
 
   <repositories>
     <repository>
