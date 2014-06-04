@@ -1,6 +1,6 @@
 # Spring Boot & Maven war overlay
 
-Project to show Spring Boot & Maven war overlay errors:
+Project to show Spring Boot & Maven war overlay errors:   
 [http://stackoverflow.com/questions/24025004/spring-boot-maven-war-overlay](http://stackoverflow.com/questions/24025004/spring-boot-maven-war-overlay)
 
 This project has 2 war modules:
@@ -16,7 +16,7 @@ Run the webapp:
  mvn spring-boot:run
  ```
  
- Got to 
+ Go to 
  * [http://localhost:8080/index.html](http://localhost:8080/index.html) --> OK
  * [http://localhost:8080/main/index.html](http://localhost:8080/main/index.html) --> OK
  * [http://localhost:8080/dependency/index.html](http://localhost:8080/dependency/index.html) --> ERROR 404
