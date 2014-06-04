@@ -16,7 +16,7 @@ Run the webapp:
  mvn spring-boot:run
  ```
  
- Got to 
+ Go to 
  * [http://localhost:8080/index.html](http://localhost:8080/index.html) --> OK
  * [http://localhost:8080/main/index.html](http://localhost:8080/main/index.html) --> OK
  * [http://localhost:8080/dependency/index.html](http://localhost:8080/dependency/index.html) --> ERROR 404
