@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>main-webapp</artifactId>
-  <!--<packaging>war</packaging>-->
+  <packaging>war</packaging>
 
   <dependencies>
     <dependency>
@@ -30,10 +30,10 @@
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
-        <configuration>
-          <mainClass>hello.Application</mainClass>
-          <layout>ZIP</layout>
-        </configuration>
+        <!--<configuration>-->
+        <!--<mainClass>hello.Application</mainClass>-->
+        <!--<layout>ZIP</layout>-->
+        <!--</configuration>-->
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -49,29 +49,5 @@
       </plugin>
     </plugins>
   </build>
-
-  <properties>
-    <start-class>hello.Application</start-class>
-  </properties>
-
-  <repositories>
-    <repository>
-      <id>spring-milestone</id>
-      <url>http://repo.spring.io/libs-milestone</url>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </repository>
-  </repositories>
-
-  <pluginRepositories>
-    <pluginRepository>
-      <id>spring-milestone</id>
-      <url>http://repo.spring.io/libs-milestone</url>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </pluginRepository>
-  </pluginRepositories>
 
 </project>

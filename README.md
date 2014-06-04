@@ -1,7 +1,8 @@
 # Spring Boot & Maven war overlay
 
-Project to show Spring Boot & Maven war overlay errors:   
-[http://stackoverflow.com/questions/24025004/spring-boot-maven-war-overlay](http://stackoverflow.com/questions/24025004/spring-boot-maven-war-overlay)
+Project to test Spring Boot, Maven war overlay and extra dir on classpath:
+  
+* [http://stackoverflow.com/questions/24025004/spring-boot-maven-war-overlay](http://stackoverflow.com/questions/24025004/spring-boot-maven-war-overlay)
 
 This project has 2 war modules:
 
@@ -10,30 +11,8 @@ This project has 2 war modules:
 
 Run the webapp:
  
- ```
- mvn install
- cd main-webapp
- mvn spring-boot:run
- ```
+```
+mvn install
+java -jar main-webapp/target/main-webapp-0.1.0-SNAPSHOT.war  # mvn spring-boot:run does not work with war overlay
+```
  
- Go to 
- * [http://localhost:8080/index.html](http://localhost:8080/index.html) --> OK
- * [http://localhost:8080/main/index.html](http://localhost:8080/main/index.html) --> OK
- * [http://localhost:8080/dependency/index.html](http://localhost:8080/dependency/index.html) --> ERROR 404
-
-
-## I'm not able to access HTML files from the war dependency... 
-
-Even if these HTML files are packaged in the war file:
-
-**main-webapp-0.1.0-SNAPSHOT.war**
-
-```
-- dependency    (from dependency-webapp)
-  \- index.html
-- main          (from main-webapp)
-  \- index.html
-- META-INF
-- WEB-INF
-- index.html
-```
